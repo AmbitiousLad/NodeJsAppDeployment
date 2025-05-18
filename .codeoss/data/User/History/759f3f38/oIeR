@@ -1,0 +1,6 @@
+username=ec2-user
+username1=ec2-user1
+username2=ec2-user2
+password:"5432"
+password1:"46342"
+password2:"242413"

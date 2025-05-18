@@ -1,0 +1,33 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.34.jar -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/g22051969/.codeoss/data/User/globalStorage/redhat.java/1.37.2024111508/config_ss_linux -data /home/g22051969/.codeoss/data/User/workspaceStorage/-19734750/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:15.873'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:16.165'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/lombok/lombok-1.18.34.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/g22051969/.codeoss/data/User/workspaceStorage/-19734750/redhat.java -Daether.dependencyCollector.impl=bf -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/g22051969/.codeoss/data/User/globalStorage/redhat.java/1.37.2024111508/config_linux -data /home/g22051969/.codeoss/data/User/workspaceStorage/-19734750/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:16.226'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:16.308'
+}
+{
+  message: 'May 03, 2025 5:07:18 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:18.252'
+}
+{
+  message: 'May 03, 2025 5:07:18 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-05-03 05:07:18.261'
+}
+{ level: 'error', timestamp: '2025-05-03 05:07:27.016' }

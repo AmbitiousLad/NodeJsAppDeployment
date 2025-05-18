@@ -1,0 +1,207 @@
+I0427 04:46:15.572265    1850 serve.go:43] cloudcode_cli (Mar 25 2025 19:59:47 -0700, cl:740584268 baseline:740583863)
+I0427 04:46:15.572319    1850 serve.go:44] Command line: ["/home/g22051969/.cache/cloud-code/cloudcode_cli/cloudcode_cli/413fde1b/cloudcode_cli" "duet" "-logtostderr"]
+I0427 04:46:15.580341    1850 life_cycle.go:182] Initializing. Architecture: "amd64", Operating system: "linux"
+I0427 04:46:15.702101    1850 configuration.go:185] product updateChannel will be used
+I0427 04:46:15.702159    1850 configuration.go:686] language thresholds: map[]
+I0427 04:46:15.702178    1850 configuration.go:630] dataFileExtensions array: [.csv .tsv .jsonl]
+I0427 04:46:15.702198    1850 configuration.go:897] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000e252fd StopSequences:map[] DataFilePromptLines:0}
+I0427 04:46:15.702235    1850 configuration.go:897] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000e2531d StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0427 04:46:15.702363    1850 configuration.go:279] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0427 04:46:15.702403    1850 configuration.go:287] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0427 04:46:15.702414    1850 configuration.go:291] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:0 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:4194304 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace raglEnableWaldFileSelection:false raglWaldMaxFileSearchDepth:0}
+I0427 04:46:15.702449    1850 configuration.go:293] Configured settings for canCancelRequests: true
+I0427 04:46:15.702458    1850 configuration.go:295] Configured settings for contextPromptOpts: &{Endpoint:}
+I0427 04:46:18.348919    1850 tier.go:17] Received tier configuration request: {ProjectID:cloudshell-gca UserDefinedCloudaicompanionProject:true}
+I0427 04:46:18.353013    1850 configuration.go:185] product updateChannel will be used
+I0427 04:46:18.353067    1850 configuration.go:686] language thresholds: map[]
+I0427 04:46:18.353087    1850 configuration.go:630] dataFileExtensions array: [.csv .tsv .jsonl]
+I0427 04:46:18.353110    1850 configuration.go:897] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010278ad StopSequences:map[] DataFilePromptLines:0}
+I0427 04:46:18.353140    1850 configuration.go:897] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010279bd StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0427 04:46:18.353176    1850 configuration.go:279] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0427 04:46:18.353190    1850 configuration.go:287] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0427 04:46:18.353200    1850 configuration.go:291] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:0 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:4194304 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace raglEnableWaldFileSelection:false raglWaldMaxFileSearchDepth:0}
+I0427 04:46:18.353241    1850 configuration.go:293] Configured settings for canCancelRequests: true
+I0427 04:46:18.353250    1850 configuration.go:295] Configured settings for contextPromptOpts: &{Endpoint:}
+I0427 04:46:18.536410    1850 tier.go:17] Received tier configuration request: {ProjectID:cloudshell-gca UserDefinedCloudaicompanionProject:true}
+I0427 04:46:18.542257    1850 configuration.go:185] product updateChannel will be used
+I0427 04:46:18.542311    1850 configuration.go:686] language thresholds: map[]
+I0427 04:46:18.542330    1850 configuration.go:630] dataFileExtensions array: [.csv .tsv .jsonl]
+I0427 04:46:18.542351    1850 configuration.go:897] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00107d83d StopSequences:map[] DataFilePromptLines:0}
+I0427 04:46:18.542380    1850 configuration.go:897] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00107d89d StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0427 04:46:18.542418    1850 configuration.go:279] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0427 04:46:18.542432    1850 configuration.go:287] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0427 04:46:18.542439    1850 configuration.go:291] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:0 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:4194304 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace raglEnableWaldFileSelection:false raglWaldMaxFileSearchDepth:0}
+I0427 04:46:18.542470    1850 configuration.go:293] Configured settings for canCancelRequests: true
+I0427 04:46:18.542479    1850 configuration.go:295] Configured settings for contextPromptOpts: &{Endpoint:}
+I0427 04:46:18.544305    1850 cloudcode.go:45] Using Cloud Code API
+I0427 04:46:18.547239    1850 client.go:442] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: 07bf8d5a-e87c-4118-b94a-fdc29a826bf5\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideName":"Code OSS for Cloud Shell","ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.30.0"},"project":"cloudshell-gca","requestId":"cloudcode-740584268-393a21c9-5101-48b8-9083-980c01e704d7"}
+I0427 04:46:19.023674    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:46:19.023717    1850 document.go:444] NoneEditType, returning ReasonRecentlyOpened
+I0427 04:46:19.023786    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:46:19.023812    1850 conversation.go:950] Unable to retrieve excluded files for request #5: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:46:19.564045    1850 tier.go:17] Received tier configuration request: {ProjectID:cloudshell-gca UserDefinedCloudaicompanionProject:true}
+I0427 04:46:19.568329    1850 configuration.go:185] product updateChannel will be used
+I0427 04:46:19.568384    1850 configuration.go:686] language thresholds: map[]
+I0427 04:46:19.568403    1850 configuration.go:630] dataFileExtensions array: [.csv .tsv .jsonl]
+I0427 04:46:19.568423    1850 configuration.go:897] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000fe365d StopSequences:map[] DataFilePromptLines:0}
+I0427 04:46:19.568452    1850 configuration.go:897] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000fe367d StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0427 04:46:19.568488    1850 configuration.go:279] Configured settings for atlasOpts: {"Addr":"","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0427 04:46:19.568501    1850 configuration.go:287] Configured settings for cloudCodeOpts: {"Addr":"cloudcode-pa.googleapis.com:443","QuotaProject":"","Project":"cloudshell-gca","LogPrompt":true,"UseTypeoverCache":true,"AdaptiveCacheEnabled":false,"EnableAdminCitationBlock":false,"EnableChatStreaming":false}
+I0427 04:46:19.568510    1850 configuration.go:291] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 debouncedAfterFetching:false minScoreThreshold:0 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableChatStreaming:false enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:4194304 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0 raglTokenizationAlgorithm:whitespace raglEnableWaldFileSelection:false raglWaldMaxFileSearchDepth:0}
+I0427 04:46:19.568546    1850 configuration.go:293] Configured settings for canCancelRequests: true
+I0427 04:46:19.568555    1850 configuration.go:295] Configured settings for contextPromptOpts: &{Endpoint:}
+I0427 04:46:19.574561    1850 client.go:442] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: d559a904-61d2-4043-8b8f-91099b1955bc\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideName":"Code OSS for Cloud Shell","ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.30.0"},"project":"cloudshell-gca","requestId":"cloudcode-740584268-b5b21cb8-e328-484b-88c0-8246a034e93b"}
+I0427 04:46:20.822007    1850 conversation.go:143] New conversation started, chat history reset
+I0427 04:46:21.042944    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:46:21.042976    1850 document.go:444] NoneEditType, returning ReasonRecentlyOpened
+I0427 04:46:21.043014    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:46:21.043026    1850 conversation.go:950] Unable to retrieve excluded files for request #9: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:46:22.714548    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:46:22.714591    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:46:22.714633    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:46:22.714667    1850 conversation.go:950] Unable to retrieve excluded files for request #12: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:30.848569    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:30.848614    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:47:30.848674    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:30.848688    1850 conversation.go:950] Unable to retrieve excluded files for request #17: open /home/g22051969/.aiexclude: no such file or directory
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":8,"character":24}, triggerKind=1
+I0427 04:47:31.492249    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.540920    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:31.540957    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.540998    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:31.541010    1850 conversation.go:950] Unable to retrieve excluded files for request #21: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:31.605358    1850 handler.go:159] cancel was requested for: 20, needs to be canceled: true
+I0427 04:47:31.609480    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:31Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language: ResultCount:0 Status:ACTION_STATUS_ERROR_UNKNOWN TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":8,"character":23}, triggerKind=1
+I0427 04:47:31.650089    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.704884    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:31.704932    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.704989    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:31.705006    1850 conversation.go:950] Unable to retrieve excluded files for request #24: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:31.730350    1850 handler.go:159] cancel was requested for: 23, needs to be canceled: true
+I0427 04:47:31.735818    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:31Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language: ResultCount:0 Status:ACTION_STATUS_ERROR_UNKNOWN TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":8,"character":22}, triggerKind=1
+I0427 04:47:31.773685    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.829465    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:31.829502    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.829543    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:31.829556    1850 conversation.go:950] Unable to retrieve excluded files for request #27: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:31.883093    1850 handler.go:159] cancel was requested for: 26, needs to be canceled: true
+I0427 04:47:31.886845    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:31Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language: ResultCount:0 Status:ACTION_STATUS_ERROR_UNKNOWN TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":8,"character":21}, triggerKind=1
+I0427 04:47:31.922937    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.982903    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:31.982946    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:31.982986    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:31.983004    1850 conversation.go:950] Unable to retrieve excluded files for request #30: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:32.068873    1850 handler.go:159] cancel was requested for: 29, needs to be canceled: true
+I0427 04:47:32.072685    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:32Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language: ResultCount:0 Status:ACTION_STATUS_ERROR_UNKNOWN TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":8,"character":20}, triggerKind=1
+I0427 04:47:32.122507    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:32.168590    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:32.168627    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:32.168705    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:32.168722    1850 conversation.go:950] Unable to retrieve excluded files for request #33: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:32.423474    1850 completion.go:236] Inline suggestion requested (request #32): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/g22051969/services/pod.yaml} Position:{Line:8 Character:20}} TriggerMode:0 IDESessionIndex:20250427_1 CompletionIndex:4}
+E0427 04:47:32.423544    1850 completion.go:381] Failed to build node: unsupported language
+Completion Provider - completion # 4 - Completion result obtained from language client
+I0427 04:47:32.432743    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:32Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language:yaml ResultCount:0 Status:ACTION_STATUS_EMPTY TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":8,"character":19}, triggerKind=1
+I0427 04:47:32.525824    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:32.584668    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:32.584718    1850 document.go:448] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0427 04:47:32.584760    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:32.584774    1850 conversation.go:950] Unable to retrieve excluded files for request #37: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:32.826364    1850 completion.go:236] Inline suggestion requested (request #36): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/g22051969/services/pod.yaml} Position:{Line:8 Character:19}} TriggerMode:0 IDESessionIndex:20250427_1 CompletionIndex:5}
+E0427 04:47:32.826450    1850 completion.go:381] Failed to build node: unsupported language
+Completion Provider - completion # 5 - Completion result obtained from language client
+I0427 04:47:32.834973    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:32Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language:yaml ResultCount:0 Status:ACTION_STATUS_EMPTY TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":8,"character":25}, triggerKind=1
+I0427 04:47:33.296203    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:47:33.394263    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:47:33.394300    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:47:33.394340    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:47:33.394354    1850 conversation.go:950] Unable to retrieve excluded files for request #41: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:47:33.596961    1850 completion.go:236] Inline suggestion requested (request #40): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/g22051969/services/pod.yaml} Position:{Line:8 Character:25}} TriggerMode:0 IDESessionIndex:20250427_1 CompletionIndex:6}
+E0427 04:47:33.597040    1850 completion.go:381] Failed to build node: unsupported language
+I0427 04:47:33.597259    1850 client.go:442] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"codeLanguage":"yaml","filePath":"/home/g22051969/services/pod.yaml","includedReason":"CURRENTLY_OPEN","lastEdit":["DELETE","DELETE","DELETE","DELETE","UNKNOWN_EDIT"],"segments":[{"content":"apiVersion: v1\nkind: Pod\nmetadata:\n  name: pod-nodeport\n  labels:\n    run: nginx\nspec:\n  containers:\n    - image: nginx:1.27.5"},{"isSelected":true},{"content":"\n      name: nginxcontainer"}]}},"metadata":{"ideName":"Code OSS for Cloud Shell","ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.30.0"},"project":"cloudshell-gca","requestId":"cloudcode-740584268-78c2ffd6-b366-4921-bc6a-e3a083182c3d"}
+I0427 04:47:33.826185    1850 completion.go:609] Code complete response for request #40 after post-processing: &{Suggestions:[] TraceID:7b5708b5ae9364fa RequestID:cloudcode-740584268-78c2ffd6-b366-4921-bc6a-e3a083182c3d ServerTiming:gfet5t7;dur=216, gfet4t7; dur=227 NetPlusServerTiming:228.872861ms FromCache:false Typeover:false TriggerMode:0 ProcessingDetails:{RagStatus:RAG_NOT_FOUND AtlasExperience:4e3ec00c79913174 PromptID: CompletionMethod:COMPLETION ExperimentDebugStringFingerprint: ModelURI: ChatClientIDHash:}}
+Received completion response from language server with 0 valid responses and 0 responses that have been filtered out
+Completion Provider - completion # 6 - Completion result obtained from language client
+I0427 04:47:33.831429    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:47:33Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language:yaml ResultCount:0 Status:ACTION_STATUS_EMPTY TraceId:7b5708b5ae9364fa ForceSendFields:[] NullFields:[]}
+I0427 04:48:15.703819    1850 life_cycle.go:313] codeReportEvery: recomputing codereport metric
+I0427 04:48:45.350344    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:48:45.350386    1850 document.go:444] NoneEditType, returning ReasonRecentlyOpened
+I0427 04:48:45.350426    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:48:45.350455    1850 conversation.go:950] Unable to retrieve excluded files for request #48: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:48:45.350477    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:46.903831    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:48:46.903875    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:46.903922    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:48:46.903936    1850 conversation.go:950] Unable to retrieve excluded files for request #50: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:48:46.903960    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:48.771465    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:48:48.771504    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:48.771547    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:48:48.771558    1850 conversation.go:950] Unable to retrieve excluded files for request #56: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:48:48.771578    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":10,"character":21}, triggerKind=1
+I0427 04:48:49.596090    1850 document.go:448] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0427 04:48:49.645207    1850 handler.go:159] cancel was requested for: 59, needs to be canceled: true
+I0427 04:48:49.650422    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:48:49Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language: ResultCount:0 Status:ACTION_STATUS_ERROR_UNKNOWN TraceId: ForceSendFields:[] NullFields:[]}
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":10,"character":22}, triggerKind=1
+I0427 04:48:49.687835    1850 document.go:448] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0427 04:48:49.745347    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:48:49.745386    1850 document.go:448] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0427 04:48:49.745425    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:48:49.745438    1850 conversation.go:950] Unable to retrieve excluded files for request #62: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:48:49.745457    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:49.988554    1850 completion.go:236] Inline suggestion requested (request #61): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/g22051969/services/nodeportsvc.yaml} Position:{Line:10 Character:22}} TriggerMode:0 IDESessionIndex:20250427_1 CompletionIndex:8}
+E0427 04:48:49.988608    1850 completion.go:381] Failed to build node: unsupported language
+I0427 04:48:49.988644    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:48:49.988827    1850 client.go:442] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"codeLanguage":"yaml","filePath":"/home/g22051969/services/nodeportsvc.yaml","includedReason":"CURRENTLY_OPEN","lastEdit":["UNKNOWN_EDIT","ADD","ADD"],"segments":[{"content":"apiVersion: v1\nkind: Service\nmetadata:\n  name: nodeport-service\nspec:\n  selector:\n    run: nginx\n  ports:\n    - protocol: TCP\n      port: 80\n      targetPort: 8080"},{"isSelected":true},{"content":"\n  type: NodePort"}]}},"metadata":{"ideName":"Code OSS for Cloud Shell","ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.30.0"},"project":"cloudshell-gca","requestId":"cloudcode-740584268-e4f63704-e8c2-4e69-9ac1-03b8fbc799b1"}
+I0427 04:48:50.238209    1850 completion.go:609] Code complete response for request #61 after post-processing: &{Suggestions:[{Content:
+      nodePort: 30080 Citations:[] PromptCitations:[] Score:-3.0314724 Telemetry:{CommentLines:<nil>}}] TraceID:741acd0cdde9f1dd RequestID:cloudcode-740584268-e4f63704-e8c2-4e69-9ac1-03b8fbc799b1 ServerTiming:gfet5t7;dur=228, gfet4t7; dur=248 NetPlusServerTiming:249.330633ms FromCache:false Typeover:false TriggerMode:0 ProcessingDetails:{RagStatus:RAG_NOT_FOUND AtlasExperience:4e3ec00c79913174 PromptID: CompletionMethod:COMPLETION ExperimentDebugStringFingerprint: ModelURI: ChatClientIDHash:}}
+Received completion response from language server with 1 valid responses and 0 responses that have been filtered out
+Completion Provider - completion # 8 - Completion result obtained from language client
+I0427 04:48:50.248006    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:48:50Z): &{CompletionMethod: CompletionMode:language_client DisplayLength: Language:yaml ResultCount:1 Status:ACTION_STATUS_NO_ERROR TraceId:741acd0cdde9f1dd ForceSendFields:[] NullFields:[]}
+I0427 04:48:51.059220    1850 telemetry.go:205] Sending telemetry event InlineCompletionOffered(2025-04-27T04:48:51Z): &{CompletionMethod: CompletionMode: DisplayLength: Language:yaml ResultCount:1 Status:ACTION_STATUS_NO_ERROR TraceId:741acd0cdde9f1dd ForceSendFields:[] NullFields:[]}
+I0427 04:48:52.049871    1850 conversation.go:905] Starting getChatIDEContext with detected intent: 
+I0427 04:48:52.049909    1850 document.go:448] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0427 04:48:52.049961    1850 ide_context.go:117] Unable to read file at /home/g22051969/.aiexclude
+/home/g22051969
+file:///home/g22051969
+I0427 04:48:52.049975    1850 conversation.go:950] Unable to retrieve excluded files for request #68: open /home/g22051969/.aiexclude: no such file or directory
+I0427 04:48:52.049995    1850 document.go:448] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0427 04:49:15.703827    1850 life_cycle.go:313] codeReportEvery: recomputing codereport metric
+I0427 04:56:15.703798    1850 life_cycle.go:277] codeReportBasicEvery: recomputing codereportbasic metric

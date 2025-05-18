@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testemptydir
+spec:
+  containers:
+    - name: myos1
+      image: ubuntu
+      command: ["/bin/bash", "-c", "sleep 10000"]
+      volumeMounts:                                    # Mount definition inside the container
+      - name: test
+        mountPath: "/tmp/mydata"          
+    - name: myos2
+      image: ubuntu
+      command: ["/bin/bash", "-c", "sleep 10000"]
+      volumeMounts:
+      - name: test
+        mountPath: "/tmp/mydata"
+  volumes:                                                   
+  - name: test
+    emptyDir: {}

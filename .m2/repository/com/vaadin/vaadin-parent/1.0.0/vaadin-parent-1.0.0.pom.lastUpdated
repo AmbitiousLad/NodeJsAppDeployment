@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 30 17:59:43 UTC 2025
+https\://repo.maven.apache.org/maven2/.lastUpdated=1746035983518
+http\://0.0.0.0/.error=Could not transfer artifact com.vaadin\:vaadin-parent\:pom\:1.0.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [vaadin-addons (http\://maven.vaadin.com/vaadin-addons, default, releases+snapshots), vaadin-snapshots (http\://oss.sonatype.org/content/repositories/vaadin-snapshots/, default, snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1746035983509
+https\://maven.vaadin.com/vaadin-prereleases/.error=
+https\://maven.vaadin.com/vaadin-prereleases/.lastUpdated=1746035983508

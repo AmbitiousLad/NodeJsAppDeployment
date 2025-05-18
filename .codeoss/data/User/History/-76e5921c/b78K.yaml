@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: configmap-demo3
+spec:
+  containers:
+  - name: demo-container
+    image: nginx
+    volumeMounts:
+      - name: config
+        mountPath: /etc/config
+  volumes:
+  - name: config
+    configMap:
+      name: configmap-demo-3
+      items:
+        - key: username1
+          path: test-file/username1
+        - key: password1
+          path: test-file/password1
+
